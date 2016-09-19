@@ -5,7 +5,7 @@ require 'thorsample/version'
 
 Gem::Specification.new do |spec|
   spec.name = "thorsample"
-  spec.version = thorsample::VERSION
+  spec.version = Thorsample::VERSION
   spec.authors = ["toiroakr"]
   spec.email = ["qazsewsxcd@gmail.com"]
 

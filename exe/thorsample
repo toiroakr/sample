@@ -2,4 +2,4 @@
 
 require "thorsample"
 
-thorsample::CLI.start
+Thorsample::CLI.start
