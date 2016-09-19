@@ -1,7 +1,7 @@
-require "sample"
+require "thorsample"
 require "thor"
 
-module Sample
+module Thorsample
   class CLI < Thor
     desc "hello", "say 'hello world!'."
 

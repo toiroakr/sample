@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sample/version'
+require 'thorsample/version'
 
 Gem::Specification.new do |spec|
-  spec.name = "sample"
-  spec.version = Sample::VERSION
+  spec.name = "thorsample"
+  spec.version = thorsample::VERSION
   spec.authors = ["toiroakr"]
   spec.email = ["qazsewsxcd@gmail.com"]
 
   spec.summary = %q{Write a short summary, because Rubygems requires one.}
   spec.description = %q{Write a longer description or delete this line.}
-  spec.homepage = ""
+  spec.homepage = "https://github.com/toiroakr/thorsample.git"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
